@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <style>
+    div{
+        height: 50px;
+        width: 1768px;
+        background-color: #009885;
+        margin-bottom: -5px;
+        margin-top: -24px;
+        border-radius: 12px;
+        }
+    a{
+        margin-left: 170px;
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        padding:0px;
+    }
+    .btn-outline-success{
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      height: 30px;
+      margin-top: 03px;
+    }
+    #nav{
+      margin-left: -180px;
+    }
+    #navv{
+      margin-left: -150px;
+    }
+    #navvv{
+      margin-left: -150px;
+    }
+    .btn-outline-success:hover{
+      background-color: darkgreen;
+      box-shadow: 2px black;
+    }
+
+  </style>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <!-- Example Code -->
+    
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home"><strong>Home</strong></a>
+        <a id="nav" href="News"><strong>News</strong></a>
+        <a id="navv" href="Services"><strong>Services</strong></a>
+        <a id="navvv" href="Contact"><strong>Contact</strong></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    <!-- End Example Code -->
+  </body>
+</html>
