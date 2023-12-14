@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <style>
+         * {
+            font-family: sans-serif;
+        }
+        .form {
+            border: 1px solid #adafb193;
+            position: relative;
+            height: 500px;
+            width: 450px;
+            border-radius: 10px;
+            top: 62px;
+        }
+        .google {
+            position: relative;
+            top: 58px;
+            left: 10px;
+        }
+
+        #G {
+            position: relative;
+            right: 29px;
+            top: -16px;
+            color: #2675d8;
+        }
+
+        #o-1 {
+            position: relative;
+            right: 19px;
+            top: -50px;
+            color: #ec584b;
+        }
+
+        #o-2 {
+            position: relative;
+            right: 10px;
+            top: -84px;
+            color: #fbbc05;
+        }
+
+        #g {
+            position: relative;
+            right: 0px;
+            top: -118px;
+            color: #2675d8;
+        }
+
+        #l {
+            position: relative;
+            right: -6px;
+            top: -152px;
+            color: #49b165;
+        }
+
+        #e {
+            position: relative;
+            right: -13px;
+            top: -186px;
+            color: #ec584b;
+        }
+
+        #hd-1 {
+            font-size: 1.5rem;
+            position: relative;
+            bottom: 138px;
+        }
+
+        #para-1 {
+            position: relative;
+            bottom: 152px;
+        }
+
+        #input-1 {
+            border: 1px solid #adafb193;
+            height: 45px;
+            width: 379px;
+            position: relative;
+            left: 3px;
+            bottom: 138px;
+            font-size: 1.01rem;
+            border-radius: 4px;
+        }
+        #input-2 {
+            border: 1px solid #adafb193;
+            height: 45px;
+            width: 379px;
+            position: relative;
+            left: 3px;
+            bottom: 113px;
+            font-size: 1.01rem;
+            border-radius: 4px;
+        }
+        #input-1:focus{
+            padding: 10px;
+        }
+        #input-2:focus{
+            padding: 10px;
+            position: relative;
+            right: 20px;
+        }
+        #button {
+           position: relative;
+           left: 800px;
+           bottom: 64px;
+           border: 2px solid black;
+           padding: 5px 10px;
+           background-color: #1a73e8;
+           color: white;
+           border-radius: 7px;
+           text-decoration: none;
+           height: 30px;
+           width: 60px;
+           }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="form">
+            <div class="google">
+                <p id="G">G</p>
+                <p id="o-1">o</p>
+                <p id="o-2">o</p>
+                <p id="g">g</p>
+                <p id="l">l</p>
+                <p id="e">e</p>
+            </div>
+            <p id="hd-1">Create a Google Account</p>
+            <p id="para-1">Enter your name</p>
+            <input id="input-1" required placeholder="&nbsp First name"><br>
+            <input id="input-2" placeholder="&nbsp Last name (optional)">
+        </center>
+    </div>
+    <form action="index.html">
+    <button id="button" required><strong>Next</strong></button> 
+</form>
+</body>
+
+</html>
